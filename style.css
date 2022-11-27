@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link:hover{
+    color: red;
+}
+.main{
+    background-image: url("images/img01.jpg");
+     width: 100%;
+     height: 700px;
+     background-size: cover; 
+     position: relative;
+}
+.overlay{
+    font-size: 20px;
+    margin-top: 15%;
+}
+/* .overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}   */
+.design{
+    justify-content: center;
+    display: flex;
+}
+.design img{
+    padding-right: 3%;
+    width: 100px;
+    opacity: 40%;
+}
+.design img:hover{
+    opacity: 100%;
+}
+.what{
+    text-align: center;
+    
+}
+.contain{
+    background-image: url("images/img2.jpg");
+    width: 100%;
+    height: 300%;
+}
+.discover{
+    display: flex;
+    justify-content: space-between ;
+    padding: 50px;
+    width: 100%;
+}
+.discover img{
+    border-radius: 7%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    width: 100%;
+    margin: 5px;
+}
+.section img{
+    /* background-image: url("images/img3.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+    position: relative; */
+    height: 400px;
+    border-radius: 2%; 
+}
+.section h4{
+    margin: 0;
+    color: rgb(27, 4, 73);
+}
+.section p{
+    padding: 3%;
+}
+.text :hover{
+    background-color: rgb(56, 153, 245);
+}
+.pic{
+    background-image: url("images/img01.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.color{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.people{
+    /* columns: 3;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 100%; */ display: flex;
+    justify-content: center ;
+    padding: 50px;
+    width: 100%;
+} 
+.img:hover{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+.wording{
+    display: flex;
+    flex-direction: row;
+}
+
+.hello :hover{
+    background-color: orange;
+}
